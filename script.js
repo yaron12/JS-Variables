@@ -67,8 +67,9 @@ person.unshift(dotan = {
  })
 
 dotan = {
- name : "dotan"},
- face = {"eye":"blue"}
+ name : "dotan",
+ face : {eye:"blue"}
+};
  
 console.log(person);
 console.log(person[0].name+" "+person[1].name+" "+person[2].name);
